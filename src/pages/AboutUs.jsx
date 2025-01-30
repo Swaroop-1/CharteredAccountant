@@ -17,7 +17,7 @@ const AboutUs = () => {
           </p>
 
           {/* Single Column Layout */}
-          <div className="flex flex-col gap-8 bg-white bg-opacity-50 p-5 rounded-lg shadow-lg">
+          <div className="flex flex-col gap-8  bg-opacity-50 p-5 rounded-lg shadow-lg">
             {/* Text Section */}
             <div>
               <h2 className="text-2xl font-bold text-blue-700 mb-4">
@@ -91,7 +91,7 @@ const AboutUs = () => {
           </div>
 
           {/* Dedicationt Section */}
-          <div className="mt-12 text-center bg-white bg-opacity-50 p-5 rounded-lg shadow-lg">
+          <div className="mt-12 text-center bg-opacity-50 p-5 rounded-lg shadow-lg">
             <h2 className="text-2xl font-semibold text-blue-700 mb-4">
               Our Dedication to Excellence
             </h2>

@@ -40,7 +40,7 @@ const Accounts = () => {
     <div className='p-5 bg-img '>
       <p className='text-center text-4xl font-bold py-3 text-blue-700'>CHARTERED ACCOUNTANTS</p>
 
-       <div className='my-5'>
+       <div className='my-5 bg-blue'>
        <SearchBar users={accounts} onSelect={handleAccountSelect} />
        </div>
       <ResultList users={accounts}/>

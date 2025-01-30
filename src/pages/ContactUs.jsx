@@ -16,7 +16,7 @@ const ContactUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Form */}
           <div>
-            <form className="bg-white bg-opacity-70 p-6 rounded-lg shadow-lg">
+            <form className=" bg-opacity-70 p-6 rounded-lg shadow-lg">
               <div className="mb-4">
                 <label htmlFor="name" className="block text-sm font-medium ">
                   Full Name
@@ -71,24 +71,24 @@ const ContactUs = () => {
           </div>
   
           {/* Contact Information */}
-          <div className="space-y-8 bg-white p-5 bg-opacity-50">
+          <div className="space-y-8  p-5 bg-opacity-50">
             <div>
               <h2 className="text-2xl font-semibold mb-2  text-blue-700">Office Address</h2>
               <p className='text-lg'>
-                CharteredInfo<br />
-                781 Hi-Tech City<br />
+                Chartered Accountants<br />
+                Madhapur<br />
                 Hyderabad
               </p>
             </div>
             <div>
               <h2 className="text-2xl font-semibold text-blue-700 mb-2">Phone</h2>
-              <p className='text-lg'>+91 8317557768</p>
-              <p className='text-lg'>+91 9531475838</p>
+              <p className='text-lg'>+91 6305005130</p>
+              <p className='text-lg'>+91 9104516922</p>
             </div>
             <div>
               <h2 className="text-2xl font-semibold mb-2 text-blue-700">Email</h2>
               <p className="text-lg">
-                @charteredInfo@gmail.com
+                @charteredAccountants@gmail.com
               </p>
             </div>
             <div>

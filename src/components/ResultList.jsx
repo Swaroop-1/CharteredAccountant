@@ -12,7 +12,7 @@ const ResultList = ({users}) => {
       {
         users.map((account)=>(
           <div key={account.id}
-          className="bg-white shadow-lg bg-opacity-80 rounded-lg p-4 flex flex-col items-center text-center hover:scale-105 hover:shadow-4xl"
+          className="bg-blue shadow-lg bg-opacity-80 rounded-lg p-4 flex flex-col items-center text-center hover:scale-105 hover:shadow-4xl"
           >
             <img src={account.image} 
             className="w-30 h-30 mb-4 rounded shadow"

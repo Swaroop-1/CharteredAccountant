@@ -34,7 +34,7 @@ const DetailsPage = () => {
     if (error) return <div className="text-center text-red-500">{error}</div>;
 
   return (
-    <div className="container mx-auto p-6 my-2 w-[70%] border-2 shadow-xl bg-white opacity-90 text-center">
+    <div className="container mx-auto p-6 my-2 w-[70%] border-2 shadow-xl  opacity-90 text-center">
      
       {
         <div className="container mx-auto p-6 ">
